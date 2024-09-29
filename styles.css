@@ -2,8 +2,18 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
 .header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 12vw;
+    text-align: center;
+    align-items: center;
 }
 
 .logo {
@@ -13,25 +23,43 @@
 
 .header-links {
     color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5vw;
 }
 
 .hero {
-    background-color: #1F2937;    
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh 12vw;
+}
+
+.hero-heading {
+    margin-right:10vw;
 }
 
 h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0px;
 }
 
 .hero-image-placeholder {
     background-color: #808080;
     color: #F9FAF8;
+    width: 800px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 h2 {
     color: #E5E7EB;
+    margin: 5px 0px;
 }
 
 .info-header {
@@ -64,6 +92,10 @@ h2 {
 button {
     background-color: #3882F6;
     color: #E5E7EB;
+    margin: 5px 0px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .footer {
